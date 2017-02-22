@@ -1,0 +1,60 @@
+* {
+	font-family: arial;
+}
+body {
+	margin: 0px;
+}
+#menubox {
+	width: 200px;
+	text-align: center;
+	background: #002080;
+	border-radius: 15px;
+	padding: 5px;
+	margin-top: 10px;
+	float: left;
+}
+#menu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu li {
+	//border: solid 1px gray;
+	margin: 15px;
+	border-radius: 5px;
+}
+#menu li a {
+	display: block;
+	text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	background: white;
+}
+#nome_escola {
+	font-size: 25px;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding: 5px;
+}
+#topo {
+	background: #002080;
+}
+.container {
+	width: 750px;
+	margin: 0 auto;
+}
+#conteudo table {
+	border: solid 1px gray;
+	width: 450px;
+	background: gray
+}
+#rodape {
+	clear: both;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 13px;
+}
